@@ -1,0 +1,762 @@
+/* */
+/*  */
+/* BUTTON */
+/* line 25, ../sass/includes/_include.scss */
+.form-submit {
+  margin: 0 10px 10px 0;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  background: #f53e3e;
+  cursor: pointer;
+}
+/* line 33, ../sass/includes/_include.scss */
+.form-submit:hover, .form-submit:focus {
+  background: white;
+  color: #f53e3e;
+}
+/* line 37, ../sass/includes/_include.scss */
+.form-submit:first-child {
+  margin: 0 10px 10px 0;
+}
+
+/* line 41, ../sass/includes/_include.scss */
+.views-field-field-image a img, .views-field-field-images a img {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+/* line 48, ../sass/includes/_include.scss */
+.views-field-field-image a img:hover, .views-field-field-images a img:hover, .views-field-field-image a img:focus, .views-field-field-images a img:focus, .views-field-field-image a img:active, .views-field-field-images a img:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* line 66, ../sass/includes/_include.scss */
+.form-submit {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+/* line 3, ../sass/page.scss */
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+/* view */
+/* line 10, ../sass/page.scss */
+.views-field, .field {
+  margin-bottom: 5px;
+}
+
+/* line 14, ../sass/page.scss */
+.field-type-image {
+  margin-bottom: 15px;
+}
+
+/* line 18, ../sass/page.scss */
+.page {
+  /* sidebar */
+}
+/* line 19, ../sass/page.scss */
+.page #main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* forum */
+  /* comment */
+}
+/* line 24, ../sass/page.scss */
+.page #main .content .node .content {
+  margin-bottom: 30px;
+  padding: 30px;
+  position: relative;
+  background: #141414;
+}
+/* line 29, ../sass/page.scss */
+.page #main .content .node .content:before {
+  border-color: transparent transparent #141414 transparent;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  content: "";
+  position: absolute;
+  top: -15px;
+  z-index: 10;
+  left: 30px;
+}
+/* line 40, ../sass/page.scss */
+.page #main .content .node h2 {
+  margin: -40px 0 30px;
+  padding-right: 110px;
+  line-height: 1.4;
+}
+/* line 45, ../sass/page.scss */
+.page #main .content .node .date-wrapper {
+  background: url(../images/bg-date-2.png) no-repeat 100% 0;
+  display: block;
+  margin: 0 0 15px;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+/* line 52, ../sass/page.scss */
+.page #main .content .node .date-wrapper .date-content {
+  display: block;
+  float: right;
+  height: 53px;
+  overflow: hidden;
+  padding: 9px 0 0;
+  width: 103px;
+}
+/* line 59, ../sass/page.scss */
+.page #main .content .node .date-wrapper .date-content span {
+  color: white;
+}
+/* line 63, ../sass/page.scss */
+.page #main .content .node .date-wrapper .date-left {
+  display: block;
+  float: left;
+  font-family: 'oswaldregular';
+  font-size: 2em;
+  line-height: 1.2;
+  text-align: center;
+  width: 49px;
+}
+/* line 72, ../sass/page.scss */
+.page #main .content .node .date-wrapper .date-right {
+  border-left: 1px solid #999;
+  display: block;
+  float: left;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  width: 53px;
+}
+/* line 84, ../sass/page.scss */
+.page #main .content .gallery-list .views-row {
+  margin-bottom: 30px;
+}
+/* line 87, ../sass/page.scss */
+.page #main .content .gallery-list .views-col {
+  margin-right: 0;
+}
+/* line 90, ../sass/page.scss */
+.page #main .content .gallery-list .views-field-field-images {
+  margin: 0 15px;
+}
+/* line 93, ../sass/page.scss */
+.page #main .content .gallery-list .views-field-title {
+  background: #333;
+  border: 1px solid #444;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 99, ../sass/page.scss */
+.page #main .content .gallery-list .views-field-title a {
+  color: #cccccc;
+  font-size: 1.142em;
+}
+/* line 102, ../sass/page.scss */
+.page #main .content .gallery-list .views-field-title a:hover, .page #main .content .gallery-list .views-field-title a:focus {
+  color: #f53e3e;
+}
+/* line 109, ../sass/page.scss */
+.page #main .content .content .user-login-form, .page #main .content .content .user-pass, .page #main .content .content .user-register-form {
+  padding: 30px;
+  background: #141414;
+}
+/* line 112, ../sass/page.scss */
+.page #main .content .content .user-login-form .form-item, .page #main .content .content .user-pass .form-item, .page #main .content .content .user-register-form .form-item {
+  margin: 0 0 10px;
+}
+/* line 114, ../sass/page.scss */
+.page #main .content .content .user-login-form .form-item label, .page #main .content .content .user-pass .form-item label, .page #main .content .content .user-register-form .form-item label {
+  min-width: 100px;
+  margin-right: 5px;
+}
+/* line 118, ../sass/page.scss */
+.page #main .content .content .user-login-form .form-item .form-text, .page #main .content .content .user-login-form .form-item .form-email, .page #main .content .content .user-login-form .form-item .form-select, .page #main .content .content .user-pass .form-item .form-text, .page #main .content .content .user-pass .form-item .form-email, .page #main .content .content .user-pass .form-item .form-select, .page #main .content .content .user-register-form .form-item .form-text, .page #main .content .content .user-register-form .form-item .form-email, .page #main .content .content .user-register-form .form-item .form-select {
+  background-color: #222;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+/* line 124, ../sass/page.scss */
+.page #main .content .content .user-login-form input, .page #main .content .content .user-login-form button, .page #main .content .content .user-login-form select, .page #main .content .content .user-login-form textarea, .page #main .content .content .user-login-form details, .page #main .content .content .user-pass input, .page #main .content .content .user-pass button, .page #main .content .content .user-pass select, .page #main .content .content .user-pass textarea, .page #main .content .content .user-pass details, .page #main .content .content .user-register-form input, .page #main .content .content .user-register-form button, .page #main .content .content .user-register-form select, .page #main .content .content .user-register-form textarea, .page #main .content .content .user-register-form details {
+  border-color: #2E2E2E;
+}
+/* line 128, ../sass/page.scss */
+.page #main .content .content .user-login-form .description {
+  padding: 5px 0 5px 105px;
+}
+/* line 133, ../sass/page.scss */
+.page #main .views-field-created, .page #main .submitted {
+  color: #999999;
+  font-size: 0.921em;
+}
+/* line 138, ../sass/page.scss */
+.page #main .field-name-field-tags .field-items {
+  display: inline;
+  float: none;
+}
+/* line 141, ../sass/page.scss */
+.page #main .field-name-field-tags .field-items .field-item {
+  display: inline;
+}
+/* line 147, ../sass/page.scss */
+.page #main .pager li {
+  display: inline-block;
+  margin: 0 1px;
+  padding: 0;
+}
+/* line 151, ../sass/page.scss */
+.page #main .pager li a {
+  background-color: #555;
+  border-color: #000;
+  color: #ccc;
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 0;
+}
+/* line 158, ../sass/page.scss */
+.page #main .pager li a:hover, .page #main .pager li a:focus {
+  background: white;
+  color: #f53e3e;
+}
+/* line 165, ../sass/page.scss */
+.page #main .pager .pager-current {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: normal;
+  color: #f53e3e;
+}
+/* line 172, ../sass/page.scss */
+.page #main .action-links {
+  margin-top: 0;
+}
+/* line 176, ../sass/page.scss */
+.page #main .form-required:after {
+  content: " *";
+  vertical-align: middle;
+}
+/* line 183, ../sass/page.scss */
+.page #main #forum table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 186, ../sass/page.scss */
+.page #main #forum table th {
+  padding: 10px 7px;
+  background: white;
+  color: black;
+  border: 1px solid #aaa;
+}
+/* line 192, ../sass/page.scss */
+.page #main #forum table td {
+  padding: 7px;
+  background: #cccccc;
+  color: black;
+  border: 1px solid #aaa;
+  position: static;
+}
+/* line 198, ../sass/page.scss */
+.page #main #forum table td .submitted {
+  color: #666;
+}
+/* line 203, ../sass/page.scss */
+.page #main #forum table a:hover {
+  color: black;
+}
+/* line 208, ../sass/page.scss */
+.page #main #forum td.created, .page #main #forum td.posts, .page #main #forum td.topics, .page #main #forum td.last-reply, .page #main #forum td.replies, .page #main #forum td.pager {
+  white-space: normal;
+}
+/* line 212, ../sass/page.scss */
+.page #main .field-name-taxonomy-forums {
+  margin-bottom: 15px;
+}
+/* line 214, ../sass/page.scss */
+.page #main .field-name-taxonomy-forums .field-label {
+  float: left;
+  margin-right: 5px;
+}
+/* line 218, ../sass/page.scss */
+.page #main .field-name-taxonomy-forums .field-items {
+  display: inline;
+}
+/* line 220, ../sass/page.scss */
+.page #main .field-name-taxonomy-forums .field-items .field-item {
+  display: inline;
+}
+/* line 227, ../sass/page.scss */
+.page #main #comments {
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px dotted #444;
+}
+/* line 231, ../sass/page.scss */
+.page #main #comments h2 {
+  text-transform: uppercase;
+  margin: 0 0 20px !important;
+  padding-right: 0 !important;
+}
+/* line 237, ../sass/page.scss */
+.page #main #comments #comment-form {
+  padding: 0;
+  background: none;
+  margin: 0;
+}
+/* line 242, ../sass/page.scss */
+.page #main #comments mark {
+  float: right;
+  margin: 0 0 10px 10px;
+  padding: 1px 5px;
+}
+/* line 249, ../sass/page.scss */
+.page #main .comment {
+  background: #333;
+  border: 1px solid #444;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+/* line 254, ../sass/page.scss */
+.page #main .comment h3 {
+  font-size: 1.28em;
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 260, ../sass/page.scss */
+.page #main .comment .content {
+  background: none !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+/* line 264, ../sass/page.scss */
+.page #main .comment .content:before {
+  display: none !important;
+}
+/* line 268, ../sass/page.scss */
+.page #main .comment ul.links {
+  margin-bottom: 0;
+}
+/* line 271, ../sass/page.scss */
+.page #main .comment ul.links li a {
+  display: inline-block;
+  padding: 5px 15px;
+  background: white;
+  font-size: 0.921em;
+  color: black;
+}
+/* line 277, ../sass/page.scss */
+.page #main .comment ul.links li a:hover, .page #main .comment ul.links li a:focus {
+  color: white;
+  background: #f53e3e;
+}
+/* line 285, ../sass/page.scss */
+.page #main #comment-form {
+  background: black;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+/* line 289, ../sass/page.scss */
+.page #main #comment-form .preview {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+/* line 293, ../sass/page.scss */
+.page #main #comment-form .preview a:hover, .page #main #comment-form .preview a:focus {
+  color: black;
+}
+/* line 298, ../sass/page.scss */
+.page #main #comment-form .form-item {
+  margin: 0 0 15px;
+}
+/* line 300, ../sass/page.scss */
+.page #main #comment-form .form-item label {
+  min-width: 100px;
+}
+/* line 303, ../sass/page.scss */
+.page #main #comment-form .form-item .form-text, .page #main #comment-form .form-item .form-textarea, .page #main #comment-form .form-item .form-select {
+  background-color: #222;
+  border: 1px solid #2E2E2E;
+  color: white;
+}
+/* line 309, ../sass/page.scss */
+.page #main #comment-form .form-actions {
+  margin: 0;
+}
+/* line 312, ../sass/page.scss */
+.page #main #comment-form .form-type-textarea {
+  margin-bottom: 0;
+}
+/* line 315, ../sass/page.scss */
+.page #main #comment-form .filter-wrapper {
+  border-color: #2E2E2E;
+}
+/* line 317, ../sass/page.scss */
+.page #main #comment-form .filter-wrapper .tips {
+  margin-left: 20px;
+}
+/* line 319, ../sass/page.scss */
+.page #main #comment-form .filter-wrapper .tips li {
+  margin-bottom: 7px;
+}
+/* line 324, ../sass/page.scss */
+.page #main #comment-form details {
+  background: white;
+  color: black;
+  border: none;
+  margin-bottom: 20px;
+}
+/* line 329, ../sass/page.scss */
+.page #main #comment-form details .form-autocomplete {
+  background: white !important;
+  color: black !important;
+  border: 1px solid #ddd !important;
+}
+/* line 334, ../sass/page.scss */
+.page #main #comment-form details legend {
+  margin-bottom: 10px;
+}
+/* line 338, ../sass/page.scss */
+.page #main #comment-form details #edit-keywords-fieldset label {
+  min-width: 190px;
+}
+/* line 342, ../sass/page.scss */
+.page #main #comment-form details .form-submit {
+  margin-bottom: 10px;
+}
+/* line 344, ../sass/page.scss */
+.page #main #comment-form details .form-submit:hover, .page #main #comment-form details .form-submit:focus {
+  background: black;
+  color: white;
+}
+/* line 350, ../sass/page.scss */
+.page #main #comment-form details a:hover {
+  color: black;
+}
+/* line 354, ../sass/page.scss */
+.page #main #comment-form details #edit-date {
+  margin-bottom: 10px;
+}
+/* line 361, ../sass/page.scss */
+.page .sidebar {
+  /* lgoin */
+}
+/* line 362, ../sass/page.scss */
+.page .sidebar h2 {
+  font-size: 1.285em;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 367, ../sass/page.scss */
+.page .sidebar .block {
+  border-top: 2px dotted #555;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 371, ../sass/page.scss */
+.page .sidebar .block:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+/* line 376, ../sass/page.scss */
+.page .sidebar .views-row {
+  border-top: 1px dotted #555;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/* line 381, ../sass/page.scss */
+.page .sidebar .views-row:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+/* line 385, ../sass/page.scss */
+.page .sidebar .views-row:last-child {
+  margin-bottom: 0;
+}
+/* line 388, ../sass/page.scss */
+.page .sidebar .views-row .views-field-field-image {
+  float: left;
+  margin: 5px 15px 5px 0;
+}
+/* line 392, ../sass/page.scss */
+.page .sidebar .views-row .views-field-title {
+  font-size: 1.14em;
+  font-weight: bold;
+}
+/* line 398, ../sass/page.scss */
+.page .sidebar .item-list ul {
+  margin: 0;
+}
+/* line 400, ../sass/page.scss */
+.page .sidebar .item-list ul li {
+  border-top: 1px dotted #afafaf;
+  list-style: none;
+  margin: 0;
+}
+/* line 404, ../sass/page.scss */
+.page .sidebar .item-list ul li a {
+  display: block;
+  padding: 7px 0;
+  color: #cccccc;
+}
+/* line 408, ../sass/page.scss */
+.page .sidebar .item-list ul li a:before {
+  content: "+";
+  margin-right: 5px;
+}
+/* line 412, ../sass/page.scss */
+.page .sidebar .item-list ul li a:hover, .page .sidebar .item-list ul li a:focus {
+  color: #f53e3e;
+}
+/* line 416, ../sass/page.scss */
+.page .sidebar .item-list ul li:first-child {
+  border-top: none;
+}
+/* line 420, ../sass/page.scss */
+.page .sidebar .item-list ul li.views-row {
+  margin-left: 0;
+  list-style: none;
+  overflow: visible;
+  border-top: 1px dotted #555;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 427, ../sass/page.scss */
+.page .sidebar .item-list ul li.views-row a {
+  padding: 0;
+}
+/* line 429, ../sass/page.scss */
+.page .sidebar .item-list ul li.views-row a:before {
+  content: "";
+  margin-right: 0;
+}
+/* line 434, ../sass/page.scss */
+.page .sidebar .item-list ul li.views-row:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+/* line 438, ../sass/page.scss */
+.page .sidebar .item-list ul li.views-row .views-field-changed {
+  font-size: 0.921em;
+}
+/* line 446, ../sass/page.scss */
+.page .sidebar #user-login-form .form-item {
+  margin: 0 0 10px;
+}
+/* line 448, ../sass/page.scss */
+.page .sidebar #user-login-form .form-item label {
+  display: inline-block;
+  min-width: 90px;
+}
+/* line 452, ../sass/page.scss */
+.page .sidebar #user-login-form .form-item .form-text {
+  background: #555;
+  border: none;
+  padding: 8px;
+  width: 250px;
+}
+/* line 459, ../sass/page.scss */
+.page .sidebar #user-login-form .form-actions {
+  margin: 0 0 10px;
+  padding-left: 94px;
+}
+/* line 462, ../sass/page.scss */
+.page .sidebar #user-login-form .form-actions .button {
+  margin: 0;
+}
+/* line 469, ../sass/page.scss */
+.page .sidebar #user-login-form + .item-list {
+  padding-top: 20px;
+}
+/* line 472, ../sass/page.scss */
+.page .sidebar #user-login-form + .item-list ul li {
+  border-top: none;
+  margin-bottom: 7px;
+}
+/* line 475, ../sass/page.scss */
+.page .sidebar #user-login-form + .item-list ul li a {
+  padding: 0;
+}
+/* line 482, ../sass/page.scss */
+.page .sidebar .about-me .img {
+  float: right;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 4px solid #fff;
+  margin: -25px 0 5px 10px;
+}
+/* line 489, ../sass/page.scss */
+.page .sidebar .about-me h4 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+/* line 494, ../sass/page.scss */
+.page .sidebar .month {
+  margin-right: 5px;
+}
+/* line 498, ../sass/page.scss */
+.page ul.inline, .page ul.links.inline {
+  display: block;
+}
+/* line 500, ../sass/page.scss */
+.page ul.inline li, .page ul.links.inline li {
+  padding-left: 0px;
+  margin-right: 5px;
+}
+/* line 504, ../sass/page.scss */
+.page ul.inline li a:before, .page ul.links.inline li a:before {
+  content: "+";
+  margin-right: 5px;
+}
+/* line 511, ../sass/page.scss */
+.page #title {
+  background: black;
+  padding: 30px 0;
+}
+/* line 514, ../sass/page.scss */
+.page #title h1 {
+  margin-bottom: 0;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* line 531, ../sass/page.scss */
+.tabs a:hover, .tabs a:focus {
+  color: #f53e3e;
+}
+
+/* contact page */
+/* line 537, ../sass/page.scss */
+.contact-location {
+  background: black;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+/* line 541, ../sass/page.scss */
+.contact-location h3 {
+  color: white;
+  font-size: 1.285em;
+  text-transform: uppercase;
+}
+
+/* line 547, ../sass/page.scss */
+.feedback-contact-message-form {
+  background: black;
+  padding: 30px;
+}
+/* line 550, ../sass/page.scss */
+.feedback-contact-message-form .form-item {
+  margin: 0 0 10px;
+}
+/* line 552, ../sass/page.scss */
+.feedback-contact-message-form .form-item .form-text, .feedback-contact-message-form .form-item .form-textarea, .feedback-contact-message-form .form-item .form-email {
+  background-color: #222;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+/* line 557, ../sass/page.scss */
+.feedback-contact-message-form .form-item label {
+  min-width: 135px;
+}
+/* line 561, ../sass/page.scss */
+.feedback-contact-message-form .form-actions {
+  margin: 0;
+  padding-top: 10px;
+}
+/* line 564, ../sass/page.scss */
+.feedback-contact-message-form .form-actions .button {
+  margin: 0;
+}
+
+/* search */
+/* line 570, ../sass/page.scss */
+.search-results {
+  margin: 0;
+  background: black;
+  padding: 30px;
+}
+/* line 574, ../sass/page.scss */
+.search-results li {
+  margin-bottom: 30px;
+  padding-top: 30px;
+  border-top: 1px dotted #555;
+}
+/* line 578, ../sass/page.scss */
+.search-results li:first-child {
+  border: none;
+  padding-top: 0;
+}
+/* line 582, ../sass/page.scss */
+.search-results li:last-child {
+  margin-bottom: 0;
+}
+/* line 586, ../sass/page.scss */
+.search-results .title {
+  font-size: 1.14em;
+  font-family: arial;
+}
+
+/* line 591, ../sass/page.scss */
+#search-form {
+  background: black;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+/* line 595, ../sass/page.scss */
+#search-form .form-item {
+  margin: 0 0 10px;
+}
+/* line 597, ../sass/page.scss */
+#search-form .form-item .form-search {
+  background-color: #222;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+/* line 602, ../sass/page.scss */
+#search-form .form-item label {
+  min-width: 80px;
+  margin-right: 10px;
+}
+/* line 608, ../sass/page.scss */
+#search-form .form-submit {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0;
+}
+/* line 613, ../sass/page.scss */
+#search-form details {
+  background: white;
+  color: black;
+  border: none;
+}
+/* line 617, ../sass/page.scss */
+#search-form details legend {
+  margin-bottom: 10px;
+}
+/* line 621, ../sass/page.scss */
+#search-form details #edit-keywords-fieldset label {
+  min-width: 190px;
+}
+/* line 625, ../sass/page.scss */
+#search-form details .form-submit {
+  margin-bottom: 10px;
+}
+/* line 627, ../sass/page.scss */
+#search-form details .form-submit:hover, #search-form details .form-submit:focus {
+  background: black;
+  color: white;
+}
+/* line 634, ../sass/page.scss */
+#search-form .details-title:hover {
+  color: black;
+}

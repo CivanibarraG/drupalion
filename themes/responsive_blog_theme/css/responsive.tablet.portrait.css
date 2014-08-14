@@ -1,0 +1,31 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+
+.region-sidebar-second .block-title {
+	font-size: 20px;
+}
+.page-node-9 .webform-client-form {
+	top: 0; 
+	left: 0; 
+	width: 100%;
+	margin-bottom: 0; 
+}
+#block-boxes-site-slogan,
+#block-logo-block-logo {
+  clear: none;
+  float: left;
+  width: auto;
+}
+.page-node-9 iframe {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px 0;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    {{ head }}
+    <title>{{ head_title }}</title>
+    {{ styles }}
+    {{ scripts }}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+  </head>
+  <body{{ attributes }}>
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      {{ 'Skip to main content'|t }}
+    </a>
+    {{ page_top }}
+    {{ page }}
+    {{ page_bottom }}
+  </body>
+</html>

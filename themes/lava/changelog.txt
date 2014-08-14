@@ -1,0 +1,10 @@
+Version 7.0
+------------------------
+Date: June 18, 2014
+Initial version
+
+
+Version 7.1
+------------------------
+Date: June 21, 2014
+Minor CSS fixes

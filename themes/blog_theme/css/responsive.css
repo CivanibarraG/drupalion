@@ -1,0 +1,510 @@
+@media (max-width: 1169px) and (min-width: 992px) {
+  /* */
+  /*  */
+  /* BUTTON */
+  /* line 25, ../sass/includes/_include.scss */
+  .form-submit {
+    margin: 0 10px 10px 0;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    background: #f53e3e;
+    cursor: pointer;
+  }
+  /* line 33, ../sass/includes/_include.scss */
+  .form-submit:hover, .form-submit:focus {
+    background: white;
+    color: #f53e3e;
+  }
+  /* line 37, ../sass/includes/_include.scss */
+  .form-submit:first-child {
+    margin: 0 10px 10px 0;
+  }
+
+  /* line 66, ../sass/includes/_include.scss */
+  .form-submit {
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+  }
+
+  /* line 7, ../sass/responsive.scss */
+  #footer .menu li {
+    margin-left: 6px;
+    padding-left: 6px;
+  }
+
+  /* line 16, ../sass/responsive.scss */
+  .page .sidebar #user-login-form .form-actions {
+    padding-left: 0;
+  }
+
+  /* line 25, ../sass/responsive.scss */
+  .views-field-field-images a img {
+    max-width: 91px;
+  }
+}
+@media (max-width: 991px) {
+  /* */
+  /*  */
+  /* BUTTON */
+  /* line 25, ../sass/includes/_include.scss */
+  .form-submit {
+    margin: 0 10px 10px 0;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    background: #f53e3e;
+    cursor: pointer;
+  }
+  /* line 33, ../sass/includes/_include.scss */
+  .form-submit:hover, .form-submit:focus {
+    background: white;
+    color: #f53e3e;
+  }
+  /* line 37, ../sass/includes/_include.scss */
+  .form-submit:first-child {
+    margin: 0 10px 10px 0;
+  }
+
+  /* line 66, ../sass/includes/_include.scss */
+  .form-submit {
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+  }
+
+  /* line 34, ../sass/responsive.scss */
+  .container {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* slideshow */
+  /* line 40, ../sass/responsive.scss */
+  #search-block-form {
+    position: absolute;
+    right: 70px;
+    top: 35px;
+    width: 40px;
+  }
+  /* line 45, ../sass/responsive.scss */
+  #search-block-form .form-search {
+    width: 0px;
+  }
+  /* line 48, ../sass/responsive.scss */
+  #search-block-form:hover, #search-block-form:focus {
+    width: 249px;
+  }
+  /* line 50, ../sass/responsive.scss */
+  #search-block-form:hover .form-search, #search-block-form:focus .form-search {
+    width: 198px;
+  }
+
+  /* line 56, ../sass/responsive.scss */
+  .logged-in #search-block-form {
+    right: 47px;
+    top: 21px;
+  }
+
+  /* main menu */
+  /* line 62, ../sass/responsive.scss */
+  #main-menu {
+    max-height: 20000px;
+    margin: 0 -20px;
+    clear: both;
+    float: none;
+    padding: 0;
+    position: static;
+  }
+  /* line 69, ../sass/responsive.scss */
+  #main-menu .container-fluid {
+    padding: 0;
+  }
+  /* line 72, ../sass/responsive.scss */
+  #main-menu .container {
+    width: 100%;
+    height: auto;
+  }
+  /* line 75, ../sass/responsive.scss */
+  #main-menu .container .block {
+    float: none;
+  }
+  /* line 79, ../sass/responsive.scss */
+  #main-menu .navbar-header {
+    position: absolute;
+    right: 20px;
+    top: 38px;
+    z-index: 500;
+  }
+  /* line 85, ../sass/responsive.scss */
+  #main-menu .navbar-toggle {
+    display: block;
+    background: #ddd;
+    margin: 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 7px 8px;
+  }
+  /* line 92, ../sass/responsive.scss */
+  #main-menu .navbar-toggle:hover, #main-menu .navbar-toggle:focus {
+    background: #cccccc;
+  }
+  /* line 95, ../sass/responsive.scss */
+  #main-menu .navbar-toggle .icon-bar {
+    background: #333;
+  }
+  /* line 99, ../sass/responsive.scss */
+  #main-menu .navbar-collapse {
+    max-height: 200000px;
+  }
+  /* line 101, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 107, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu {
+    float: none;
+    padding: 5px 15px;
+    margin: 15px 0 0;
+    background: #444;
+  }
+  /* line 112, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu:before {
+    border-color: transparent transparent #444 transparent;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    right: 25px;
+  }
+  /* line 122, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li {
+    border-left: none;
+    float: none;
+    border-top: #999999;
+    border-top-style: dotted;
+  }
+  /* line 127, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li a {
+    display: block;
+    color: white;
+    border-radius: 0;
+    padding: 10px 0;
+    text-shadow: none;
+  }
+  /* line 134, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li .active {
+    color: #f53e3e;
+    background: none;
+  }
+  /* line 139, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li:hover a, #main-menu .navbar-collapse .container ul.menu li:focus a {
+    background: none;
+    color: #f53e3e;
+  }
+  /* line 144, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li:first-child {
+    border-top: none;
+  }
+  /* line 147, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li ul.menu {
+    position: static;
+    left: auto;
+    top: auto;
+    width: auto;
+    display: block;
+    border: none;
+    background: none;
+    margin: 0;
+  }
+  /* line 156, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li ul.menu:before {
+    display: none;
+  }
+  /* line 159, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li ul.menu li {
+    border-top: #999999;
+    border-top-style: dotted;
+  }
+  /* line 162, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li ul.menu li a {
+    background: none;
+    color: white;
+    padding: 10px 0;
+  }
+  /* line 166, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu li ul.menu li a:hover, #main-menu .navbar-collapse .container ul.menu li ul.menu li a:focus {
+    color: #f53e3e;
+  }
+  /* line 174, ../sass/responsive.scss */
+  #main-menu .navbar-collapse .container ul.menu .expanded > a:before {
+    color: white;
+  }
+  /* line 182, ../sass/responsive.scss */
+  #main-menu .navbar-collapse.in .container {
+    height: auto;
+    overflow: visible;
+  }
+
+  /* line 190, ../sass/responsive.scss */
+  .page #main {
+    padding-bottom: 0;
+  }
+
+  /* line 195, ../sass/responsive.scss */
+  #panel_second .col-xs-12 {
+    margin-bottom: 30px;
+  }
+  /* line 197, ../sass/responsive.scss */
+  #panel_second .col-xs-12:last-child {
+    margin-bottom: 0;
+  }
+
+  /* line 204, ../sass/responsive.scss */
+  #footer .container .block {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  /* line 209, ../sass/responsive.scss */
+  #footer .container ul.menu {
+    float: none;
+    padding-top: 5px;
+    text-align: center;
+  }
+  /* line 213, ../sass/responsive.scss */
+  #footer .container ul.menu li {
+    float: none;
+    display: inline-block;
+    padding: 0 6px;
+    margin: 0 0 5px;
+  }
+
+  /* line 222, ../sass/responsive.scss */
+  .sidebar {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 231, ../sass/responsive.scss */
+  h2, .h2 {
+    font-size: 1.42em;
+  }
+
+  /* line 234, ../sass/responsive.scss */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 241, ../sass/responsive.scss */
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 246, ../sass/responsive.scss */
+  #header #logo {
+    width: 140px;
+  }
+
+  /* line 250, ../sass/responsive.scss */
+  #search-block-form {
+    top: 27px;
+  }
+
+  /* line 254, ../sass/responsive.scss */
+  .logged-in #search-block-form {
+    top: 12px;
+    right: 53px;
+  }
+  /* line 260, ../sass/responsive.scss */
+  .logged-in .navbar-collapse ul.menu:before {
+    top: -15px !important;
+  }
+
+  /* line 266, ../sass/responsive.scss */
+  #main-menu {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  /* line 269, ../sass/responsive.scss */
+  #main-menu .navbar-header {
+    top: 30px;
+  }
+  /* line 272, ../sass/responsive.scss */
+  #main-menu .navbar-collapse {
+    border: none;
+    box-shadow: none;
+  }
+
+  /* line 278, ../sass/responsive.scss */
+  .page #title {
+    padding: 20px 0;
+  }
+  /* line 280, ../sass/responsive.scss */
+  .page #title h1 {
+    font-size: 1.42em;
+  }
+  /* line 285, ../sass/responsive.scss */
+  .page #main #comment-form {
+    padding: 15px;
+  }
+  /* line 288, ../sass/responsive.scss */
+  .page #main #comment-form .form-item .form-text {
+    max-width: 220px;
+  }
+  /* line 290, ../sass/responsive.scss */
+  .page #main #comment-form .form-item .form-text label {
+    display: block;
+  }
+  /* line 299, ../sass/responsive.scss */
+  .page #main .content .node .content {
+    padding: 15px;
+  }
+  /* line 304, ../sass/responsive.scss */
+  .page #main .content .gallery-list .views-col {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  /* line 308, ../sass/responsive.scss */
+  .page #main .content .gallery-list .views-field-field-images, .page #main .content .gallery-list .views-field-title {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* line 312, ../sass/responsive.scss */
+  .page #main .content .gallery-list .views-row {
+    margin-bottom: 0;
+  }
+  /* line 315, ../sass/responsive.scss */
+  .page #main .content .gallery-list .views-field-title {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+  /* line 322, ../sass/responsive.scss */
+  .page #main .content .form-text, .page #main .content .form-email {
+    max-width: 240px;
+  }
+  /* line 327, ../sass/responsive.scss */
+  .page #main .pager li {
+    margin-bottom: 5px;
+  }
+  /* line 331, ../sass/responsive.scss */
+  .page #main .comment {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 338, ../sass/responsive.scss */
+  .page ul.inline li a, .page ul.links.inline li a {
+    margin-bottom: 10px;
+  }
+
+  /* line 347, ../sass/responsive.scss */
+  #panel_first .views-field-field-image a img {
+    width: 277px;
+  }
+
+  /* line 356, ../sass/responsive.scss */
+  #panel_second .gallery-list .views-row .views-col {
+    margin-right: 0;
+    width: 33.33%;
+  }
+  /* line 359, ../sass/responsive.scss */
+  #panel_second .gallery-list .views-row .views-col .views-field-field-images {
+    padding-right: 10px;
+  }
+
+  /* line 366, ../sass/responsive.scss */
+  .contact-location, .feedback-contact-message-form {
+    padding: 15px;
+  }
+
+  /* line 370, ../sass/responsive.scss */
+  #search-form .form-submit {
+    margin-left: 148px;
+    margin-top: 5px;
+  }
+  /* line 374, ../sass/responsive.scss */
+  #search-form #edit-submit--2 {
+    margin-left: 0;
+  }
+}
+@media (max-width: 479px) {
+  /* line 392, ../sass/responsive.scss */
+  .slick-slider {
+    padding-left: 25px;
+  }
+  /* line 394, ../sass/responsive.scss */
+  .slick-slider .slick-next {
+    right: 10px;
+  }
+  /* line 397, ../sass/responsive.scss */
+  .slick-slider .slick-prev {
+    right: 38px;
+  }
+
+  /* line 401, ../sass/responsive.scss */
+  #slider1_container {
+    width: 100% !important;
+  }
+
+  /* line 407, ../sass/responsive.scss */
+  .page .sidebar #user-login-form .form-actions {
+    padding-left: 0;
+  }
+
+  /*search*/
+  /* line 414, ../sass/responsive.scss */
+  #search-form {
+    padding: 15px;
+  }
+  /* line 417, ../sass/responsive.scss */
+  #search-form .details-wrapper {
+    padding: 15px;
+  }
+  /* line 420, ../sass/responsive.scss */
+  #search-form .form-submit {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  /* line 431, ../sass/responsive.scss */
+  .page #main .content .content .user-login-form .description {
+    padding-left: 0;
+  }
+  /* line 435, ../sass/responsive.scss */
+  .page #main .content .content .user-register-form {
+    padding: 15px;
+  }
+  /* line 437, ../sass/responsive.scss */
+  .page #main .content .content .user-register-form label {
+    display: block;
+  }
+  /* line 440, ../sass/responsive.scss */
+  .page #main .content .content .user-register-form input, .page #main .content .content .user-register-form select {
+    margin-bottom: 5px;
+  }
+  /* line 443, ../sass/responsive.scss */
+  .page #main .content .content .user-register-form .form-file {
+    max-width: 240px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 448, ../sass/responsive.scss */
+  .page #main .content .content .user-register-form .timezone-detect {
+    max-width: 200px;
+  }
+}

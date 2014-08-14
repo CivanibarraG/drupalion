@@ -1,0 +1,116 @@
+/* */
+/*  */
+/* line 19, ../sass/includes/_include.scss */
+h1, .h1, h2, .h2, h3, .h3 {
+  font-family: 'oswaldregular';
+}
+
+/* BUTTON */
+/* line 25, ../sass/includes/_include.scss */
+.form-submit {
+  margin: 0 10px 10px 0;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  background: #f53e3e;
+  cursor: pointer;
+}
+/* line 33, ../sass/includes/_include.scss */
+.form-submit:hover, .form-submit:focus {
+  background: white;
+  color: #f53e3e;
+}
+/* line 37, ../sass/includes/_include.scss */
+.form-submit:first-child {
+  margin: 0 10px 10px 0;
+}
+
+/* line 66, ../sass/includes/_include.scss */
+.form-submit, a {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+/* html.scss */
+/* line 4, ../sass/html.scss */
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  color: #cccccc;
+  background: url(../images/bg-body.jpg) repeat 0 0 black;
+}
+
+/* line 12, ../sass/html.scss */
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 17, ../sass/html.scss */
+header, nav, section, article, figure, aside, footer {
+  display: block;
+}
+
+/* line 20, ../sass/html.scss */
+a {
+  color: #f53e3e;
+}
+
+/* line 24, ../sass/html.scss */
+a:hover, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 28, ../sass/html.scss */
+h1, .h1 {
+  font-size: 1.84em;
+}
+
+/* line 31, ../sass/html.scss */
+h1, .h1, h2, .h2, h3, .h3 {
+  margin: 0 0 15px;
+  color: white;
+}
+
+/* line 36, ../sass/html.scss */
+h2 {
+  font-size: 1.71em;
+}
+
+/* line 40, ../sass/html.scss */
+h4, h5, h6 {
+  margin-bottom: 15px;
+  font-size: 1em;
+  color: white;
+}
+
+/* line 46, ../sass/html.scss */
+address {
+  margin-bottom: 15px;
+}
+
+/* line 50, ../sass/html.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 55, ../sass/html.scss */
+input, button, select, textarea {
+  padding: 6px;
+  border: 1px solid #ddd;
+}
+
+/* line 59, ../sass/html.scss */
+label {
+  font-weight: normal;
+}
+
+/* line 62, ../sass/html.scss */
+p {
+  margin-bottom: 15px;
+}

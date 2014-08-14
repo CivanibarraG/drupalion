@@ -1,0 +1,65 @@
+<?php
+use Drupal\Component\Utility\Xss;
+use Drupal\Core\Template\RenderWrapper;
+use Drupal\Core\Template\Attribute;
+
+function blog_theme_preprocess_page(&$variables) {
+  $page_object = $variables['page']['#page'];
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $classes[] = 'two-sidebars';
+    $variables['page']['main_content_width'] = 6;
+    $variables['page']['sidebar_first_width'] = 3;
+    $variables['page']['sidebar_second_width'] = 3;
+  }
+  elseif (!empty($variables['page']['sidebar_first'])) {
+    $classes[] = 'one-sidebar';
+    $classes[] = 'sidebar-first';
+    $variables['page']['main_content_width'] = 8;
+    $variables['page']['sidebar_first_width'] = 4;
+  }
+  elseif (!empty($variables['page']['sidebar_second'])) {
+    $classes[] = 'one-sidebar';
+    $classes[] = 'sidebar-second';
+    $variables['page']['main_content_width'] = 8;
+    $variables['page']['sidebar_second_width'] = 4;
+  }
+  else {
+    $classes[] = 'no-sidebars';
+    $variables['page']['main_content_width'] = 12;
+  }
+}
+
+function blog_theme_preprocess_node(&$variables) {
+  $node = $variables['node'];
+
+  $date = $node->getCreatedTime();
+  $day = date("d");
+  $month = date("M");
+  $year = date("Y");
+  $variables['date'] = '
+    <span class="date-wrapper">
+      <span class="date-content">
+        <span class="date-left">
+          <span class="day">' . $day . '</span>
+        </span>
+        <span class="date-right">
+          <span class="month">' . $month . '</span>
+          <span class="year">' . $year . '</span>
+        </span>
+      </span>
+    </span>';
+}
+
+function blog_theme_preprocess_views_view_field(&$variables) {
+  if ($variables['field']->field == 'created') {
+    $field_alias = $variables['field']->field_alias; 
+    $time = $variables['row']->$field_alias;
+    $day = date('d', $time);
+    $month = date('M', $time);
+    $year = date('Y', $time);
+    $variables['output'] = "<span class='date-wrapper'>
+      <span class='date-left'><span class='day'>$day</span></span>
+      <span class='date-right'><span class='month'>$month</span><span class='year'>$year</span></span>
+    </span>";    
+  }
+}

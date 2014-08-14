@@ -1,0 +1,112 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+#header {
+  border-bottom: 0;
+}
+#block-logo-block-logo,
+#block-boxes-site-slogan {
+  text-align: center;
+}
+#block-boxes-site-slogan {
+  float: left;
+  padding-top: 0;
+}
+.node-blog .field-name-field-big-image {
+	max-height: 175px;
+}
+.node-blog .field-name-field-small-image {
+  float: none;
+}
+div.region .block {
+	float: none;
+	clear: both;
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+.node-blog h1 {
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.node-blog h1 a {
+	font-size: 22px;
+}
+.node-blog .node-header {
+  padding: 10px 10px 0 10px;
+}
+.node-blog .submitted {
+  padding: 0 10px;
+}
+.node-blog .node-content {
+  padding: 0 10px 15px 10px;
+}
+.node-blog nav .links {
+  padding: 10px 10px 13px 10px;
+}
+
+h1#page-title {
+  font-size: 22px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+}
+#main-content #content .node-page, 
+#main-content #content .node-webform,
+#main-content #content {
+  padding: 0 10px 10px 10px;
+}
+
+.page-node-9 iframe {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px 0;
+  height: 200px;
+}
+.page-node-9 .webform-client-form {
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  margin-bottom: 0; 
+}
+.page-node-9 .webform-component-textfield, .page-node-9 .webform-component-email {
+  width: 100%;
+  float: none;
+  clear: left;
+  margin-bottom: 0;
+}
+.page-node-9 .webform-component-textarea {
+  width: 100%;
+  float: none;
+  position: static;
+  top: 0;
+  margin-bottom: 0;
+}
+.page-node-9 .webform-component-textfield input, 
+.page-node-9 .webform-component-email input {
+  width: 92%;
+}
+
+.comment-title.title, 
+.comment {
+  padding: 0 10px;
+}
+.comment {
+  margin: 10px 0;
+}
+#comments {
+  padding: 0 0 10px;
+}
+.flexslider .flex-direction-nav a {
+  width: 35px;
+  height: 35px;
+  background-size: 100%;
+  margin-top: -18px;
+}
